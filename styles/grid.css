@@ -1,0 +1,33 @@
+/*  square grid styles */
+.squares-wrapper{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .squares-wrapper>.squares{
+      width: 1000px;
+  
+  }
+  .squares-wrapper>.squares>.square{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: -4px;
+  }
+  .square>.image-wrapper img{
+      width: 100%;
+      height: 500px;
+      object-fit:cover;   
+  }
+  .square>.square-text-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding:42px;
+  
+  }
+  .squares-wrapper>.squares>.square>.square-text-wrapper ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
